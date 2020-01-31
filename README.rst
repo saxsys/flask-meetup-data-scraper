@@ -6,26 +6,26 @@ Dowload group & events from Meetup-API into Elasticsearch to make a fulltext sea
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
      :target: https://github.com/ambv/black
      :alt: Black code style
-.. image:: https://travis-ci.com/linuxluigi/flask-meetup-data-scraper.svg?branch=master
-     :target: https://travis-ci.com/linuxluigi/flask-meetup-data-scraper
+.. image:: https://travis-ci.com/saxsys/flask-meetup-data-scraper.svg?branch=master
+     :target: https://travis-ci.com/saxsys/flask-meetup-data-scraper
      :alt: Travis CI tests
 .. image:: https://readthedocs.org/projects/flask-meetup-data-scraper/badge/?version=latest
      :target: https://flask-meetup-data-scraper.readthedocs.io/en/latest/?badge=latest
      :alt: Documentation Status
 .. image:: https://api.codacy.com/project/badge/Grade/09b0518479d547d2a86c2a925e525160
-     :target: https://www.codacy.com/manual/linuxluigi/flask-meetup-data-scraper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=linuxluigi/flask-meetup-data-scraper&amp;utm_campaign=Badge_Grade
+     :target: https://www.codacy.com/manual/saxsys/flask-meetup-data-scraper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=saxsys/flask-meetup-data-scraper&amp;utm_campaign=Badge_Grade
      :alt: Codacy quality
 .. image:: https://api.codacy.com/project/badge/Coverage/09b0518479d547d2a86c2a925e525160
-     :target: https://www.codacy.com/manual/linuxluigi/flask-meetup-data-scraper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=linuxluigi/flask-meetup-data-scraper&amp;utm_campaign=Badge_Coverage
+     :target: https://www.codacy.com/manual/saxsys/flask-meetup-data-scraper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=saxsys/flask-meetup-data-scraper&amp;utm_campaign=Badge_Coverage
      :alt: Coverage
 .. image:: https://static.deepsource.io/deepsource-badge-light-mini.svg
-     :target: https://deepsource.io/gh/linuxluigi/flask-meetup-data-scraper/?ref=repository-badge
+     :target: https://deepsource.io/gh/saxsys/flask-meetup-data-scraper/?ref=repository-badge
      :alt: DeepSource
-.. image:: https://pyup.io/repos/github/linuxluigi/flask-meetup-data-scraper/shield.svg
-     :target: https://pyup.io/repos/github/linuxluigi/flask-meetup-data-scraper/
+.. image:: https://pyup.io/repos/github/saxsys/flask-meetup-data-scraper/shield.svg
+     :target: https://pyup.io/repos/github/saxsys/flask-meetup-data-scraper/
      :alt: Updates
-.. image:: https://pyup.io/repos/github/linuxluigi/flask-meetup-data-scraper/python-3-shield.svg
-     :target: https://pyup.io/repos/github/linuxluigi/flask-meetup-data-scraper/
+.. image:: https://pyup.io/repos/github/saxsys/flask-meetup-data-scraper/python-3-shield.svg
+     :target: https://pyup.io/repos/github/saxsys/flask-meetup-data-scraper/
      :alt: Python 3
 
 .. figure:: docs/_static/meetup-search-DataFlow.png
