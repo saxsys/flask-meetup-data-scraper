@@ -4,31 +4,22 @@ from time import sleep
 
 import pytest
 
-from meetup_search.meetup_api_client.exceptions import (
-    EventAlreadyExists,
-    InvalidResponse,
-)
+from meetup_search.meetup_api_client.exceptions import (EventAlreadyExists,
+                                                        InvalidResponse)
 from meetup_search.meetup_api_client.json_parser import (
-    get_category_from_response,
-    get_event_from_response,
-    get_event_host_from_response,
-    get_group_from_response,
-    get_group_organizer_from_response,
-    get_meta_category_from_response,
-    get_topic_from_response,
-    get_venue_from_response,
-)
+    get_category_from_response, get_event_from_response,
+    get_event_host_from_response, get_group_from_response,
+    get_group_organizer_from_response, get_meta_category_from_response,
+    get_topic_from_response, get_venue_from_response)
 from meetup_search.models.group import Event, Group, Topic
-from tests.meetup_api_demo_response import (
-    get_category_response,
-    get_event_host_response,
-    get_event_response,
-    get_group_response,
-    get_member_response,
-    get_meta_category_response,
-    get_topic_response,
-    get_venue_response,
-)
+from tests.meetup_api_demo_response import (get_category_response,
+                                            get_event_host_response,
+                                            get_event_response,
+                                            get_group_response,
+                                            get_member_response,
+                                            get_meta_category_response,
+                                            get_topic_response,
+                                            get_venue_response)
 
 
 def test_get_group_from_response():
@@ -64,7 +55,7 @@ def test_get_group_from_response():
     assert group_1.timezone == group_1_response["timezone"]
     assert group_1.visibility == group_1_response["visibility"]
     assert group_1.short_link is None
-    assert group_1.welcome_message is None
+    # assert group_1.welcome_message is None
     assert group_1.city is None
     assert group_1.city_link is None
     assert group_1.untranslated_city is None
