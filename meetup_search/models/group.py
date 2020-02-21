@@ -145,10 +145,10 @@ class Group(Document):
     # topics
     topics = Nested(Topic)
 
-    # organizer
-    organizer_id = Integer()
-    organizer_name = Text()
-    organizer_bio = Text()
+    # # organizer
+    # organizer_id = Integer()
+    # organizer_name = Text()
+    # organizer_bio = Text()
 
     # events
     events = Nested(Event)
