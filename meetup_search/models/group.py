@@ -67,12 +67,12 @@ class Event(InnerDoc):
     venue_zip_code = Text()
     venue_location = GeoPoint()
 
-    # event hosts
-    event_host_host_count = Integer()
-    event_host_id = Integer()
-    event_host_intro = Text()
-    event_host_join_date = Date()
-    event_host_name = Text()
+    # # event hosts
+    # event_host_host_count = Integer()
+    # event_host_id = Integer()
+    # event_host_intro = Text()
+    # event_host_join_date = Date()
+    # event_host_name = Text()
 
 
 class Group(Document):
