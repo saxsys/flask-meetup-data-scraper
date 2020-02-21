@@ -5,7 +5,7 @@ FROM node:12-alpine as builder
 RUN apk add --no-cache git
 
 # dowload frontend
-RUN git clone https://github.com/linuxluigi/meetup-data-scraper-angular.git /app
+RUN git clone https://github.com/saxsys/meetup-data-scraper-angular.git /app
 
 # set workdir path to angular app
 WORKDIR /app

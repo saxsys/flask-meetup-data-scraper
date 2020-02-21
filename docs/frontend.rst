@@ -5,7 +5,7 @@ Frontend
 .. index:: Frontend
 
 The Frontend is written as an Angular app. The source code is in a extra 
-git repo https://github.com/linuxluigi/meetup-data-scraper-angular
+git repo https://github.com/saxsys/meetup-data-scraper-angular
 
 For developing the frontend it's best to run the flask app in background. 
 The develoing settings of the app try to make ``PUT`` request on 

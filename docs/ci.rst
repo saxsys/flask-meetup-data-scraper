@@ -35,8 +35,8 @@ Tests
 Travis
 ^^^^^^
 
-.. image:: https://travis-ci.com/linuxluigi/flask-meetup-data-scraper.svg?branch=master
-     :target: https://travis-ci.com/linuxluigi/flask-meetup-data-scraper
+.. image:: https://travis-ci.com/saxsys/flask-meetup-data-scraper.svg?branch=master
+     :target: https://travis-ci.com/saxsys/flask-meetup-data-scraper
      :alt: Travis CI tests
 
 This project use for testing `unit test <https://docs.pytest.org/en/latest/>`_,
@@ -75,10 +75,10 @@ Codacy.com
 .. index:: Codacy
 
 .. image:: https://api.codacy.com/project/badge/Grade/09b0518479d547d2a86c2a925e525160
-     :target: https://www.codacy.com/manual/linuxluigi/flask-meetup-data-scraper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=linuxluigi/flask-meetup-data-scraper&amp;utm_campaign=Badge_Grade
+     :target: https://www.codacy.com/manual/saxsys/flask-meetup-data-scraper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=saxsys/flask-meetup-data-scraper&amp;utm_campaign=Badge_Grade
      :alt: Codacy quality
 .. image:: https://api.codacy.com/project/badge/Coverage/09b0518479d547d2a86c2a925e525160
-     :target: https://www.codacy.com/manual/linuxluigi/flask-meetup-data-scraper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=linuxluigi/flask-meetup-data-scraper&amp;utm_campaign=Badge_Coverage
+     :target: https://www.codacy.com/manual/saxsys/flask-meetup-data-scraper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=saxsys/flask-meetup-data-scraper&amp;utm_campaign=Badge_Coverage
      :alt: Coverage
 
 `Codacy.com <https://www.codacy.com>`_ is an automated code analysis/quality tool. Codacy analyze
@@ -91,7 +91,7 @@ DeepSource.io
 .. index:: Deepsource
 
 .. image:: https://static.deepsource.io/deepsource-badge-light-mini.svg
-     :target: https://deepsource.io/gh/linuxluigi/flask-meetup-data-scraper/?ref=repository-badge
+     :target: https://deepsource.io/gh/saxsys/flask-meetup-data-scraper/?ref=repository-badge
      :alt: DeepSource
 
 `DeepSource.io <https://www.deepsource.io>`_ is like `Codacy.com <https://www.codacy.com>`_
@@ -109,12 +109,12 @@ Pyup.io
 
 .. index:: Update Python packages
 
-.. image:: https://pyup.io/repos/github/linuxluigi/flask-meetup-data-scraper/shield.svg
-     :target: https://pyup.io/repos/github/linuxluigi/flask-meetup-data-scraper/
+.. image:: https://pyup.io/repos/github/saxsys/flask-meetup-data-scraper/shield.svg
+     :target: https://pyup.io/repos/github/saxsys/flask-meetup-data-scraper/
      :alt: Updates
 
-.. image:: https://pyup.io/repos/github/linuxluigi/flask-meetup-data-scraper/python-3-shield.svg
-     :target: https://pyup.io/repos/github/linuxluigi/flask-meetup-data-scraper/
+.. image:: https://pyup.io/repos/github/saxsys/flask-meetup-data-scraper/python-3-shield.svg
+     :target: https://pyup.io/repos/github/saxsys/flask-meetup-data-scraper/
      :alt: Python 3
 
 `Pyup.io <https://pyup.io>`_ update Python packages once a week. It push every update to an extra
