@@ -85,10 +85,10 @@ def test_get_group_from_response():
     # topics
     assert len(group_1.topics) == 0
 
-    # organizer
-    assert group_1.organizer_id is None
-    assert group_1.organizer_name is None
-    assert group_1.organizer_bio is None
+    # # organizer
+    # assert group_1.organizer_id is None
+    # assert group_1.organizer_name is None
+    # assert group_1.organizer_bio is None
 
     # assert group_2
     assert isinstance(group_2, Group)
@@ -153,10 +153,10 @@ def test_get_group_from_response():
     assert len(group_2.topics) == 1
     assert isinstance(group_2.topics[0], Topic)
 
-    # organizer
-    assert group_2.organizer_id == group_2_response["organizer"]["id"]
-    assert group_2.organizer_name is None
-    assert group_2.organizer_bio is None
+    # # organizer
+    # assert group_2.organizer_id == group_2_response["organizer"]["id"]
+    # assert group_2.organizer_name is None
+    # assert group_2.organizer_bio is None
 
 
 def test_get_event_from_response():
@@ -382,9 +382,9 @@ def test_get_group_organizer_from_response():
 
     # assert group
     assert isinstance(group_2, Group)
-    assert group_2.organizer_id == organizer_2_response["id"]
-    assert group_2.organizer_name is None
-    assert group_2.organizer_bio is None
+    # assert group_2.organizer_id == organizer_2_response["id"]
+    # assert group_2.organizer_name is None
+    # assert group_2.organizer_bio is None
 
     # get organizer from repsonse
     group_3: Group = get_group_organizer_from_response(
